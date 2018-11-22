@@ -41,7 +41,7 @@ use Cake\Core\Configure;
 ```
 
 ```php
-$this->addBehavior('TimezoneDatetime.ConvertDatetimeTimezone', [
+$this->addBehavior('Timezone.Timezone', [
 	'fromTimezone' => Configure::read('App.timezone'),
 	// ...
 ]);

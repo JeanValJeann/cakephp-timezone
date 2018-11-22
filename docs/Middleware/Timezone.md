@@ -19,8 +19,8 @@ Configure::read('App.timezone');
 In your Application.php file add GeoPlugin and TimezoneMiddleware class from plugin:
 
 ```php
-use TimezoneDatetime\Middleware\GeoPlugin;
-use TimezoneDatetime\Middleware\TimezoneMiddleware;
+use Timezone\Middleware\GeoPlugin;
+use Timezone\Middleware\TimezoneMiddleware;
 ```
 
 then add the middleware into middleware method:

@@ -18,7 +18,7 @@ In your AppView.php file add Timezone Helper from plugin:
 public function initialize()
 {
     // ...
-	$this->loadHelper('TimezoneDatetime.Timezone', [
+	$this->loadHelper('Timezone.Timezone', [
 		// Config here.
 	]);
 }
@@ -40,7 +40,7 @@ use Cake\Core\Configure;
 public function initialize()
 {
     // ...
-	$this->loadHelper('TimezoneDatetime.Timezone', [
+	$this->loadHelper('Timezone.Timezone', [
 		'timezone' => Configure::read('App.timezone')
 	]);
 }
