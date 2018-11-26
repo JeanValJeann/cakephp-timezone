@@ -78,7 +78,6 @@ class TimezoneHelperTest extends TestCase
 	public function testTimezoneIdentifiersArrayList()
 	{
 		$result = $this->Timezone->timezoneIdentifiersArrayList();
-		debug($result); die();
 		$this->assertTrue(true);
 	}
 

@@ -20,6 +20,7 @@ According to me to easily handling timezone and datetime you should better set y
 
 - [Middleware/Timezone](Middleware/Timezone.md)
 - [Behavior/Timezone](Behavior/Timezone.md)
+- [Validation/Timezone](Validation/Timezone.md)
 - [Helper/Timezone](Helper/Timezone.md)
 
 ## Contributing

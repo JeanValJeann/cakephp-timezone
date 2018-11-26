@@ -23,13 +23,14 @@ It's common to deal with timezone and datetime when you want your application to
 - Store futur datetime and its own timezone related to from all client timezone possible.
 - Display basic datetime to all client timezone possible.
 - Display futur datetime and its own timezone.
-- Compare datetime.
+- Validate timezone.
 
 To do it, Timezone Plugin provides:
 
 - A middleware detecting client timezone.
 - A behavior converting datetime data from one timezone to another one.
 - An herlper able to display one timezone name and its offset, get an array list of all timezone identifier, display a datetime input text, display a timezone select.
+- A validation class to validate timezone field
 
 ## Installation & Docs
 

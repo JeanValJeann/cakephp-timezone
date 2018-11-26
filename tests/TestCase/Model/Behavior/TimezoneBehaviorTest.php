@@ -3,8 +3,8 @@ namespace Timezone\Test\Model\Behavior;
 
 use Cake\ORM\TableRegistry;
 use Cake\I18n\Time;
-use Cake\TestSuite\TestCase;
 use Timezone\Model\Behavior\TimezoneBehavior;
+use Cake\TestSuite\TestCase;
 
 /**
  * TimezoneBehavior Test
@@ -51,6 +51,9 @@ class TimezoneBehaviorTest extends TestCase
 		TableRegistry::clear();
 	}
 
+	/**
+	 * testConfig
+	 */
 	public function testConfig()
 	{
 		$this->Table->removeBehavior('Timezone');
