@@ -122,7 +122,7 @@ class TimezoneHelper extends Helper
         $datetime = ($this->Form->getSourceValue($fieldName) ? $this->Form->getSourceValue($fieldName) : 'now');
         $value = $this->Time->format($datetime, 'yyyy-MM-dd HH:mm:ss', null, $timezone);
 
-        $options = ['type' => 'text', 'value' => $value] + $options;
+        $options = ['value' => $value] + $options;
         $output = $this->Form->control($fieldName, $options);
 
         return $output;
